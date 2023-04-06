@@ -18,4 +18,3 @@ def getNumberDice():
         print('Please enter a whole number')
         getNumberDice()
 
-getNumberDice()
