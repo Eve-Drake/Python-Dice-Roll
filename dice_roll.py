@@ -2,12 +2,13 @@ import random
 
 def diceRoll(numberOfDice):
     i = 0
+    howManySides = int(input('How many sides?'))
     rolls = []
     while i < numberOfDice:
-        die = random.randint(1, 6)
+        die = random.randint(1, howManySides)
         rolls.append(die)
         i += 1
-    print(rolls)
+    return rolls
 
 
 def getNumberDice():
